@@ -1,0 +1,62 @@
+
+
+public class Account
+        property "ads.typeId" "2"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "Account"
+        property "de.generated" "true"
+{
+    public java.lang.Long accountNumber
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "accountNumber"
+                property update "true";
+    public string accountRisk
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "accountRisk"
+                property update "true";
+    public string accountType
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "accountType"
+                property update "true";
+    public Account(java.lang.Long accountNumber, string accountType, string accountRisk)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public Account()
+                property "dataio.default" "true";
+}
+
+public class NewType
+        property "ads.typeId" "1"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "newType"
+        property "de.generated" "true"
+{
+    public string firstName
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "firstName"
+                property update "true";
+    public string lastName
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "lastName"
+                property update "true";
+    public string newAttribute
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "newAttribute"
+                property update "true";
+    public string newAttribute1
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "newAttribute1"
+                property update "true";
+    public string zipCode
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "zipCode"
+                property update "true";
+    public NewType(string firstName, string lastName, string newAttribute, string newAttribute1, string zipCode)
+                property autoExpand "true"
+                property beanConstructor "true"
+                property groups "BALA"
+                property prototype "true";
+    public NewType()
+                property "dataio.default" "true";
+}
+

@@ -1,0 +1,27 @@
+
+# Account
+Account#concept.label = Account
+Account.Account(java.lang.Long,java.lang.String,java.lang.String)#phrase.navigation = a new {Account} where {0, account number} {1, account type} {2, account risk}
+Account.accountNumber#phrase.action = set the account number of {this} to {account number}
+Account.accountNumber#phrase.addition_setter = add {account number} to the account number of {this}
+Account.accountNumber#phrase.navigation = {account number} of {this}
+Account.accountNumber#phrase.subtraction_setter = subtract {account number} from the account number of {this}
+Account.accountRisk#phrase.action = set the account risk of {this} to {account risk}
+Account.accountRisk#phrase.navigation = {account risk} of {this}
+Account.accountType#phrase.action = set the account type of {this} to {account type}
+Account.accountType#phrase.navigation = {account type} of {this}
+
+# NewType
+NewType#concept.documentation = Customer
+NewType#concept.label = new type
+NewType.NewType(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)#phrase.navigation = a new {new type} where {0, first name} {1, last name} {2, new attribute} {3, new attribute 1} {4, zip code}
+NewType.firstName#phrase.action = set the first name of {this} to {first name}
+NewType.firstName#phrase.navigation = {first name} of {this}
+NewType.lastName#phrase.action = set the last name of {this} to {last name}
+NewType.lastName#phrase.navigation = {last name} of {this}
+NewType.newAttribute#phrase.action = set the new attribute of {this} to {new attribute}
+NewType.newAttribute#phrase.navigation = {new attribute} of {this}
+NewType.newAttribute1#phrase.action = set the new attribute 1 of {this} to {new attribute 1}
+NewType.newAttribute1#phrase.navigation = {new attribute 1} of {this}
+NewType.zipCode#phrase.action = set the zip code of {this} to {zip code}
+NewType.zipCode#phrase.navigation = {zip code} of {this}

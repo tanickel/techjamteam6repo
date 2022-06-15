@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Eligibility</name>
+  <uuid>ee729e1b-0527-48de-93ef-e49ee4a830af</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if the account number is between 0 and 10000
+then
+set decision to "Valid" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

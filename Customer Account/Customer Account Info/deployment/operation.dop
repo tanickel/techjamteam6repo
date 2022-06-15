@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="Customer Account Info">
+  <name>Customer-Account-Info</name>
+  <uuid>f26f072f-dbc5-42c9-8286-5a7ed4bb7e6c</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#796a6169-7a06-47e2-bba1-eaeb09d122c3"/>
+  <targetRuleProject href="../../Customer%20Account%20Info#b9d45716-0aa8-44b4-98c3-58dea29c1c6d"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
